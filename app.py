@@ -10,3 +10,6 @@ def lda():
 @app.route("/tsne/")
 def tsne():
     return render_template("temp-plot.html")
+
+if __name__ == '__main__':
+    app.run(debug=True)
