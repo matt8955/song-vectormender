@@ -3,3 +3,6 @@ __pycache__/
 data/
 .ipynb_checkpoints/
 *.csv
+tweet_scrapes/
+*.plk
+artists_list.pkl
