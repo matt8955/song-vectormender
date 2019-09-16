@@ -1,3 +1,8 @@
 __pycache__/
 .DS_Store
 data/
+.ipynb_checkpoints/
+*.csv
+tweet_scrapes/
+*.plk
+artists_list.pkl
