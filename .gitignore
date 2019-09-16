@@ -4,5 +4,5 @@ data/
 .ipynb_checkpoints/
 *.csv
 tweet_scrapes/
-*.plk
+*.pkl
 artists_list.pkl
