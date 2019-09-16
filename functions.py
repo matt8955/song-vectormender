@@ -6,7 +6,7 @@ from gensim.models import Word2Vec
 from collections import Counter
 
 #load w2v model
-model = Word2Vec.load("10window_word2vec.model")
+model = Word2Vec.load("no_dups_10window_word2vec.model")
 
 def remove_artists(artist):
     '''removes artists that are bad suggestions on a whole'''

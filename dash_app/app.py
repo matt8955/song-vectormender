@@ -9,7 +9,7 @@ import plotly.express as px
 
 
 #load artist list (have to repickle with new data)
-with open('artists_list.pkl', 'rb') as f:
+with open('artist_list.pkl', 'rb') as f:
     artist_options = pickle.load(f)
 
 #load graph coords df (have to repickle with new data)
@@ -32,7 +32,7 @@ children=[
 
 dropdown = html.Div(style = {'padding-bottom': '20px'},children=[
     dcc.Dropdown(id='artist-selector',
-    options= artist_options,
+    options = list(artist_options),
     multi=True,
     placeholder="Select your favorite bands!!!"
     )
@@ -64,7 +64,7 @@ app = dash.Dash(__name__)
 app.title = 'ArtistVectomender'
 
 app.layout = html.Div(id='body',style=colors, children = [
-    header,dropdown,grid
+    header,dropdown,grid,
 ])
 
 @app.callback(
@@ -96,5 +96,5 @@ def make_figure(input_value):
     )
 
 if __name__ == '__main__':
-    app.run_server(debug=False), #style={'columnCount': 1})
+    app.run_server(debug=True), #style={'columnCount': 1})
 
