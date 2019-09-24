@@ -27,3 +27,7 @@ The project's goal was to create an artist recommendation engine using just play
 run the following from the dash_app directory and direct your browser to the given web address in your command line
 
 `python app.py`
+
+or try the deployed version on heroku
+
+https://song-vectomender.herokuapp.com/
