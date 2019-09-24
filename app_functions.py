@@ -1,7 +1,6 @@
 import gensim
 from fuzzywuzzy import process
 import numpy as np
-from fuzzywuzzy import process
 from gensim.models import Word2Vec
 from collections import Counter
 
