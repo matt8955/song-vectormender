@@ -4,7 +4,7 @@ import numpy as np
 from gensim.models import Word2Vec
 from collections import Counter
 
-model = Word2Vec.load("/Users/matt/programming/flatiron/projects/song-vectormender/no_dups_10window_word2vec.model")
+model = Word2Vec.load("no_dups_10window_word2vec.model")
 
 def recommend(*argv):
     '''queries user for multiple artists and fuzzy matches to an artist in the
