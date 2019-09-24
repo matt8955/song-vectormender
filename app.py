@@ -60,6 +60,7 @@ colors = {
 ####################### main site ###########################
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.title = 'ArtistVectomender'
 
