@@ -7,8 +7,8 @@ The project's goal was to create an artist recommendation engine using just play
 
 # Data Collection
 
-* Scraped twitter for publicly tweeted spotify playlists
-* Collected song ids for all playlists with Spotify's api
+* Scraped Twitter for publicly tweeted spotify playlists
+* Collected song ids for all playlists with Spotify's Api
 * Collected artist and song information from Spotify's Api
 
 
