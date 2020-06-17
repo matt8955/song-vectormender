@@ -52,10 +52,10 @@ test_div = html.Div([
 
 
 colors = {
-    #'background': '#1DB954',
+    'background': '#1DB954',
     "text": "#00e5ff",
-    "background-image" : "url('/assets/wallpaper_opacity.png')",
-    "background-size": "cover",
+    # "background-image" : "url('/assets/wallpaper_opacity.png')",
+    # "background-size": "cover",
 }
 ####################### main site ###########################
 
