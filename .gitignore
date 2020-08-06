@@ -1,7 +1,14 @@
 __pycache__/
 .DS_Store
 data/
-.ipynb_checkpoints/
+*.ipynb_checkpoints
 *.csv
 tweet_scrapes/
-
+*.code-workspace
+/models/artist2vec/v2
+/models/song2ec
+texts.pkl
+song_dict.pkl
+.cache*
+scraper.ipynb
+spotify_data_collection.py

@@ -40,6 +40,7 @@ def did_you_mean(user, artist):
     return ans
 
 def many_artist(*argv):
+    #to refactor
     '''queries user for multiple artists and fuzzy matches to an artist in the
     vocabulary of the model, then makes a reccomendation'''
     #check if artist even in vocab of model
@@ -78,15 +79,15 @@ def many_artist(*argv):
                             dick += 1
                     break
                             
-    if len(artists) > 0:                   
-        #get avg of all artist vectors then get closest to that vector
-        vectors = [model[x] for x in artists]
-        avg = sum(vectors)/len(argv)
-        similar = model.wv.most_similar(positive=[avg], topn=len(artists)+10)
-        similar = [x[0] for x in similar]
-        result = [x for x in similar if x not in artists]
-        #print in some way?
-        return result
+#     if len(artists) > 0:                   
+#         #get avg of all artist vectors then get closest to that vector
+#         vectors = [model[x] for x in artists]
+#         avg = sum(vectors)/len(argv)
+#         similar = model.wv.most_similar(positive=[avg], topn=len(artists)+10)
+#         similar = [x[0] for x in similar]
+#         result = [x for x in similar if x not in artists]
+#         #print in some way?
+#         return result
             
             
                 

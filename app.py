@@ -9,10 +9,11 @@ import plotly.express as px
 
 
 #load artist list (have to repickle with new data)
-with open('artist_list.pkl', 'rb') as f:
+with open('dash/artist_v2/artist_list.pkl', 'rb') as f:
     artist_options = pickle.load(f)
 
 #load graph coords df (have to repickle with new data)
+#not goin to work! need to make graph for new model
 with open('graph_frame.pkl', 'rb') as f:
     df = pickle.load(f)
 
