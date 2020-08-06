@@ -12,3 +12,4 @@ song_dict.pkl
 .cache*
 scraper.ipynb
 spotify_data_collection.py
+models/
