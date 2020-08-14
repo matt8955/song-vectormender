@@ -13,3 +13,6 @@ song_dict.pkl
 scraper.ipynb
 spotify_data_collection.py
 models/
+.vscode/
+*.model
+new_dataset/
