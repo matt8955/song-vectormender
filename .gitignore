@@ -16,3 +16,5 @@ models/
 .vscode/
 *.model
 new_dataset/
+.ipynb_checkpoints
+.python-version
